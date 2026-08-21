@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <title>RISECAFE</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./images/favicon.ico">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#MENU">MENU</a></li>
+                <li><a href="#ABOUT">ABOUT</a></li>
+                <li><a href="#ACCESS">ACCESS</a></li>
+                <li><a href="#CONTACT">CONTACT</a></li>
+            </ul>
+        </nav>
+        <h1>
+            <img class="pc_logo" src="./images/logo.png" alt="PC用ロゴ">
+            <img class="sp_logo" src="./images/logo_sp.png" alt="スマホ用ロゴ">
+        </h1>
+    </header>
+    
+    <main>
+        <div class="parallax_box">
+            <section>
+                <h2 id="MENU" class="parallax_content img_bg_menu">MENU</h2>
+                <div class="front_content">
+                    <div class="all">
+                        <div class="menuL">
+                            <h3 class="menu_coffee">COFFEE</h3>
+                            <dl>
+                                <dt>XXXXXXXX</dt>
+                                <dd>¥500</dd>
+                                <dt>XXXXXXXX</dt>
+                                <dd>¥500</dd>
+                                <dt>XXXXXXXX</dt>
+                                <dd>¥500</dd>
+                                <dt>XXXXXXXX</dt>
+                                <dd>¥500</dd>
+                                <dt>XXXXXXXX</dt>
+                                <dd>¥500</dd>
+                                <dt>XXXXXXXX</dt>
+                                <dd>¥500</dd>
+                                <dt>XXXXXXXX</dt>
+                                <dd>¥500</dd>
+                                <dt>XXXXXXXX</dt>
+                                <dd>¥500</dd>
+                                <dt>XXXXXXXX</dt>
+                                <dd>¥500</dd>
+                                <dt>XXXXXXXX</dt>
+                                <dd>¥500</dd>
+                            </dl>
+                        </div>
+                        <div class="menuR">
+                            <div class="food-menu">            
+                                <h3 class="menu_food">FOOD</h3>
+                                <dl>
+                                    <dt>XXXXXXXX</dt>
+                                    <dd>¥500</dd>
+                                    <dt>XXXXXXXX</dt>
+                                    <dd>¥500</dd>
+                                    <dt>XXXXXXXX</dt>
+                                    <dd>¥500</dd>
+                                </dl>
+                            </div>
+                            <div class="other-menu">        
+                                <h3 class="menu_other">OTHER</h3>
+                                <dl>
+                                    <dt>XXXXXXXX</dt>
+                                    <dd>¥500</dd>
+                                    <dt>XXXXXXXX</dt>
+                                    <dd>¥500</dd>
+                                    <dt>XXXXXXXX</dt>
+                                    <dd>¥500</dd>
+                                </dl>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="about">
+                <h2 id="ABOUT" class="parallax_content img_bg_about">ABOUT</h2>
+                <div class="front_content">
+                    <h3>COFFEE</h3>
+                    <div>
+                        <div class="about_img">
+                            <img class="img1" src="./images/about_img_1.jpg" alt="スタッフの画像">
+                            <img class="img2" src="./images/about_img_2.jpg" alt="コーヒーの画像">
+                        </div>
+                        <div class="about_p">
+                            <p>テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
+                            <p>テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>                                
+                            <p>テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
+                            <p>テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
+                        </div>
+                    </div>
+                    <div class="aboutButton">
+                        <a href="#" class="aboutB">Read More</a>
+                    </div>
+                </div>
+            </section>
+
+            <section class="access">
+                <h2 id="ACCESS" class="parallax_content img_bg_access">ACCESS</h2>
+                <div class="front_content">    
+                    <h3>STORE</h3>
+                    <div class="googlemap" >
+                        <iframe class="pc_map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6480.654449717413!2d139.71077199446196!3d35.693564390332796!2m3!1f0!2f0!3f0!3m2!1i1024!2i768
+                        !4f5!3m3!1m2!1s0x60188ce61cfac13d%3A0xc62871a72991d206!2z44CSMTYyLTAwNjcg5p2x5Lqs6YO95paw5a6_5Yy65a-M5LmF55S6!5e0!3m2!1sja!2sjp!4v1732558688657!5m2!1sja!2sjp" 
+                        width="100%" 
+                        height="100%" 
+                        style="border:0;" 
+                        allowfullscreen="" 
+                        loading="lazy" 
+                        referrerpolicy="no-referrer-when-downgrade">
+                        </iframe>
+                    </div>
+                    <div class="access_p">
+                        <p>X-XX-XX,Tomihisacho,Shinjuku-ku,Tokyo 162-0067<br>
+                        東京都新宿区富久町X-XX-XX</p>
+                        <p>Open 7 days a Week<br>
+                        9:00am to 10:00pm</p>
+                        <p>Tel : XX-XXXX-XXXX</p>
+                    </div>
+                </div>
+            </section>
+
+            <section class="contact">
+                <h2 id="CONTACT" class="parallax_content img_bg_contact">CONTACT</h2>
+                <div class="front_content">
+                    <form>
+                        <div class="contentI">
+                            <div>
+                                <div class="contact_item">
+                                    <label for="name">名前</label>
+                                </div>
+                                <!--labelかinputをdivで囲うことで行分けれる-->
+                                <input class="column" type="text" id="name" name="name">
+                            </div>
+                            <div>
+                                <div class="contact_item"><label for="gender">性別</label></div>
+                                <input type="radio" id="gender_man" name="gender" value="man">
+                                <label for="gender_man">男</label>
+                                <input type="radio" id="gender_woman" name="gender" value="woman">
+                                <label for="gender_woman">女</label>
+                                <input type="radio" id="gender_non" name="gender" value="non">
+                                <label for="gender_non">指定なし</label>
+                            </div>
+                            <div>
+                                <div class="contact_item"><label for="email">メールアドレス</label></div>
+                                <input class="column" type="email" id="email" name="email">
+                            </div>
+                            <div>
+                                <div class="contact_item"><label for="number">来店回数</label></div>
+                                <input type="radio" id="number_once" name="number" value="once">
+                                <label for="number_once">初めて</label>
+                                <input type="radio" id="number_twice" name="number" value="twice">
+                                <label for="number_twice">2回目</label>
+                                <input type="radio" id="number_3times" name="number" value="3times">
+                                <label for="number_3times">3回目以上</label>
+                            </div>
+                            <div>
+                                <div class="contact_item"><label for="store">今までの来店店舗</label></div>
+                                <input type="checkbox" id="store_shinjuku" name="store" value="Shinjuku">
+                                <label for="store_shinjuku">新宿店</label>
+                                <input type="checkbox" id="store_shibuya" name="store" value="Shibuya">
+                                <label for="store_shibuya">渋谷店</label>
+                                <input type="checkbox" id="store_nakano" name="store" value="Nakano">
+                                <label for="store_nakano">中野店</label>
+                            </div>
+                            <div>
+                                <div class="contact_item"><label for="Inquiry">お問い合わせ項目</label></div>
+                                <select name="Inquiry">
+                                    <option value="merchandise">商品について</option>
+                                    <option value="serice">接客について</option>
+                                    <option value="others">その他</option>
+                                </select>
+                            </div>
+                            <div>
+                                <div class="contact_item"><label for="message">内容</label></div>
+                                <textarea id="message" name="message" rows="4"></textarea>
+                            </div>
+                            <div class="contactB">
+                                <input type="submit" value="送信">
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; RISECAFE</p>
+    </footer>    
+</body>
+</html>
