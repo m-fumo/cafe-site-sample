@@ -1,7 +1,7 @@
-@charset "UFT-8";
+@charset "UTF-8";
 
 body{
-    font-family: "Helvetica Neue","Arial","Hiragino Sans","Hiragino Kaku","Gothic ProN","Meiryo"sans-serif;
+    font-family: "Helvetica Neue","Arial","Hiragino Sans","Hiragino Kaku","Gothic ProN","Meiryo",sans-serif;
 }  /*文字スタイルの指定*/
 html {
     scroll-behavior: smooth;  /*リンク押したときの飛び方指定*/
@@ -9,7 +9,7 @@ html {
 
 /*----------header----------*/
 header {
-    background-image: url('/images/mainvisual.jpg');
+    background-image: url('../images/mainvisual.jpg');
     background-size: cover;  /*縦横比保持、縦横の小さいほうに合わせて背景画像表示*/
     height: 100vh;  /*高さに％は指定できない。100vhで画面いっぱい。vwもある*/
     position: relative;  /*背景画像を配置する基準点を指定*/
@@ -75,16 +75,16 @@ h2 {
 }
 
 .parallax_content.img_bg_menu{
-    background-image: url(/images/menu.jpg);
+    background-image: url(../images/menu.jpg);
 }
 .parallax_content.img_bg_about{
-    background-image: url(/images/about.jpg);
+    background-image: url(../images/about.jpg);
 }
 .parallax_content.img_bg_access{
-    background-image: url(/images/access.jpg);
+    background-image: url(../images/access.jpg);
 }
 .parallax_content.img_bg_contact{
-    background-image: url(/images/contact.jpg);
+    background-image: url(../images/contact.jpg);
 }
 
 h3 {
